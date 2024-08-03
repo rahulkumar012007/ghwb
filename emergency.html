@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Services</title>
+    <link rel="stylesheet" href="emergency.css">
+    <link rel="icon" type="image" href="https://cdn-icons-png.flaticon.com/512/3213/3213090.png">
+
+
+</head>
+<body>
+    <div class="head">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="monitor.html">Health Monitoring</a></li>
+                <li><a href="symptom-checker.html">Symptom Checker</a></li>
+                <li><a href="community.html">Community Support</a></li>
+                <li><a href="emergency.html">Emergency Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+
+    <main>
+        <section class="emergency-services">
+            <h1 style="font-size: 60px; text-align:center">Emergency Services</h1>
+            <div class="monitor">
+                <pre>
+                <p>emergency-services
+            
+                   If you are in immediate danger, please call emergency services in
+                   
+                   your country.
+                </p>
+                </pre>
+            </div>
+
+            <div  id="monitor" style=" text-align:center;">
+                <img src="https://c7.alamy.com/comp/JCPGRP/fire-brigade-and-ambulance-at-rescue-service-illustration-JCPGRP.jpg" style="text-align: center; border-radius:50%;width:40%;height:40%">
+                
+            </div>
+
+            <BR><BR><BR>
+
+
+            <h1 style="color: #00609b;text-align:center"><u>Emergency Contacts</u></h1>
+            <ul>
+                <li>Police: 100</li>
+                <li>Fire Department: 109</li>
+                <li>Ambulance: 102</li>
+                <li>Poison Control: 1-800-222-1222</li>
+            </ul>
+            <BR><BR><BR>
+           
+                <h1 style="color: #00609b; text-align:center"><u>Find Local Emergency</u></h1>
+                <BR><BR>
+
+            <div style="border:2px solid #00609b; border-radius:50% ;text-align:center">
+
+            
+            <form id="location-form" action="/emergency.js">
+                <label for="location">Enter your location:</label>
+                <input type="text" id="location" name="location" required style="width: 50%;">
+                <BR><BR>
+                <button type="submit" >Find Services</button>
+            </form>
+            <BR><BR>
+
+            </div>
+            <div id="services-result"></div>
+
+            <div>
+
+                <BR><BR><BR>
+
+            <h1 style="color: #00609b; text-align:center"><u>Emergency Tips</u></h1>
+           
+            <div style="text-align: center;">
+            <p style="text-align: center;">
+
+                <p>Stay calm and provide clear information.</p>
+
+                <p>Know your location.</li>
+
+                <p>Follow instructions given by emergency operators.</p>
+
+                <p>Keep a list of emergency contacts accessible.</p>
+
+            </p>
+            </div>
+            </div>
+        </section>
+        <BR><BR><BR>
+
+        <div id="highlights">
+
+            <section class="highlights">
+                <div class="footer-top" style="background-color: #00609b; height:60px;" ><p style="font-size: 20px; text-align:center;
+                    color:white">Learn More</p></div>
+                <div class="footer">
+                <article>
+                    <h2>Health Monitoring</h2>
+                    <p>Track your health metrics with our tools.</p>
+                    <a href="monitor.html">Learn More</a>
+                </article>
+                <article>
+                    <h2>Symptom Checker</h2>
+                    <p>Check your symptoms and get advice.</p>
+                    <a href="symptom-checker.html">Learn More</a>
+                </article>
+                <article>
+                    <h2>Community Support</h2>
+                    <p>Connect with others for support and advice.</p>
+                    <a href="community.html">Learn More</a>
+                </article>
+                <article>
+                    <h2>Emergency Services</h2>
+                    <p>Get help and access emergency services quickly.</p>
+                    <a href="emergency.html">Learn More</a>
+                </article>
+                </div>
+            </section>
+            </div>
+    </main>
+    <BR><BR><BR><BR>
+    <footer>
+        <p>&copy; 2024 Good Health and Well-being. All rights reserved.</p>
+    </footer>
+
+    <script src="emergency.js"></script>
+</body>
+</html>

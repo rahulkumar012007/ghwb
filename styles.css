@@ -1,0 +1,154 @@
+/* Main CSS for all pages */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color:#333;
+}
+
+header {
+    position: relative;
+   padding: 20px 0;
+    background:#00609b;
+    color: #ffffff;
+    
+    text-align: center;
+    
+    
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    
+   
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero {
+    background: #e2e2e2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.hero p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.features article {
+    background: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+footer {
+    background:#00609b;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#well {
+    border: 1px solid rgb(8, 130, 47);
+    border-radius: 10px;
+    margin: 2px; 
+    
+}
+
+.circle { 
+    
+    background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20210924/pngtree-health-care-abstract-light-effect-icon-decoration-image_906585.png) ;
+    
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+#circle {
+    border: 2px solid rgb(177, 220, 244);
+    border-radius: 50%;
+}
+
+
+.highlights { 
+    text-align: center;
+   
+    
+    background: #e2e2e2;
+
+}
+div .footer {
+    text-align: center;
+   
+    
+    
+}
+
+
+ div #highlights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+div.monitor{
+    background:#e2e2e2;
+}
+
+.img monitor{
+    text-align: center;
+    background-color: #ffffff;
+
+
+}
+
+div .footer-top{
+    text-align: center;
+    background-color: #00609b;
+    height: 60px;
+
+}
+
+.steps{
+    
+    text-align: none;
+}
+.head{
+    position: fixed;
+    top: 0%;
+    width:100%
+}
+
+.symptom{
+      text-align: center;
+      background-image: url(https://img.wbmdstatic.com/webmd_static_vue/091e9c5e819581e5/img/sc-background-image-ngen.a3802848.webp);
+}
+

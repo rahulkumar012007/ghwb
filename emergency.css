@@ -1,0 +1,113 @@
+/* Emergency CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background:#00609b;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.emergency {
+    padding: 20px;
+}
+
+.emergency h1, .emergency h2 {
+    color: #d9534f;
+}
+
+.emergency ul {
+    list-style: none;
+    padding: 0;
+}
+
+.emergency ul li {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #35424a;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+#services {
+    margin-top: 20px;
+}
+
+footer {  background:#00609b;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+div.monitor{
+    background:#e2e2e2;
+}
+div #highlights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.highlights { 
+    text-align: center;
+   
+    
+    background: #e2e2e2;
+
+}
+#monitor{
+  
+    background-image: url(https://media.istockphoto.com/id/609835974/vector/abstract-emergency-medical-services-hospital-health-care-design-concept-background.jpg?s=1024x1024&w=is&k=20&c=FI61NDHVJ80F0uaVYVwOTPS__SGr30KntUf7Q9nznhg=);
+    border-radius: 20px;
+}
+
